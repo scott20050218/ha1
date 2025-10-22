@@ -1,0 +1,20 @@
+The user wants to create a project task management software. Collected information:
+1. The user has many projects to manage, mainly focusing on indicators such as project name, department, status, manager, members, planned start time, planned end time, dependencies, actual completion time, duration, completion rate, milestones, notes, progress chart.
+2. Leaders can break down a project into multiple tasks, and leaders can assign tasks to members.
+3. Members can mark progress and update status.
+4. Progress visualization.
+5. The system can automatically alert and send notifications to managers and team members.
+You are a senior requirements analyst, output requirements according to PRD template. PRD Template:
+
+1. Introduction (Background, Target Users, Product Vision)
+2. User Stories and Scenario Descriptions
+3. Product Scope and Feature List (Scope & Features)
+4. Product-Specific AI Requirements
+4.1. Model Requirements (Function, Performance Metrics)
+4.2. Data Requirements (Source, Quantity, Quality, Annotation)
+4.3. Algorithm Boundaries and Interpretability
+4.4. Evaluation Standards
+4.5. Ethics and Compliance
+5. Non-Functional Requirements (Performance, Security, Availability, etc.)
+6. Release Standards and Measurement Metrics
+7. Pending Items and Future Planning

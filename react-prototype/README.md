@@ -1,81 +1,81 @@
-# 项目任务管理原型（React + Vite）
+# Project Task Management Prototype (React + Vite)
 
-基于 PRD 的前端原型工程，采用 React + Vite，暗色科技风样式，自适应支持 PC / 手机端。内置路由与基础页面：项目、看板、进度（时间轴示意）、预警。
+Frontend prototype project based on PRD, using React + Vite, dark tech style, responsive support for PC/mobile. Built-in routing and basic pages: Projects, Board, Progress (timeline illustration), Alerts.
 
-## 技术栈
+## Tech Stack
 
 - React 18
-- Vite 5（开发/构建）
-- react-router-dom（路由）
-- 原生 CSS（自定义暗色科技风样式）
+- Vite 5 (development/build)
+- react-router-dom (routing)
+- Native CSS (custom dark tech style)
 
-## 环境要求
+## Environment Requirements
 
 - Node.js ≥ 18
 - npm ≥ 9
 
-## 安装与启动
+## Installation and Startup
 
 ```bash
-# 进入工程目录
+# Enter project directory
 cd /Users/lihengrui/工作/2025/src/HA1/react-prototype
 
-# 安装依赖（已执行过可跳过）
+# Install dependencies (can skip if already executed)
 npm install
 
-# 启动开发服务器（默认 5173 端口）
+# Start development server (default port 5173)
 npm run dev
-# 浏览器访问
+# Browser access
 # http://localhost:5173
 ```
 
-## 常用命令
+## Common Commands
 
 ```bash
-# 构建产物到 dist/
+# Build artifacts to dist/
 npm run build
 
-# 本地预览构建产物（静态服务器）
+# Local preview of build artifacts (static server)
 npm run preview
 ```
 
-## 路由与页面
+## Routes and Pages
 
-- `/` 项目：概览指标卡、筛选工具栏、简化看板
-- `/board` 看板：按状态分栏展示任务（示例数据）
-- `/timeline` 进度：SVG 时间轴（甘特图示意）
-- `/alerts` 预警：风险/提醒列表（示例数据）
+- `/` Projects: Overview metric cards, filter toolbar, simplified board
+- `/board` Board: Display tasks by status columns (sample data)
+- `/timeline` Progress: SVG timeline (Gantt chart illustration)
+- `/alerts` Alerts: Risk/reminder list (sample data)
 
-## 目录结构
+## Directory Structure
 
 ```
 react-prototype/
-  ├─ index.html              # 入口 HTML
-  ├─ vite.config.js          # Vite 配置
+  ├─ index.html              # Entry HTML
+  ├─ vite.config.js          # Vite configuration
   ├─ package.json
   ├─ src/
-  │  ├─ main.jsx             # 启动与路由容器（BrowserRouter）
-  │  ├─ App.jsx              # 布局与路由页面
-  │  ├─ index.css            # 全局样式（暗色科技风 + 响应式）
-  │  └─ assets/              # 静态资源
+  │  ├─ main.jsx             # Startup and routing container (BrowserRouter)
+  │  ├─ App.jsx              # Layout and route pages
+  │  ├─ index.css            # Global styles (dark tech style + responsive)
+  │  └─ assets/              # Static resources
   └─ public/
      └─ vite.svg
 ```
 
-## 功能特性（原型级）
+## Features (Prototype Level)
 
-- 响应式布局：侧边导航在移动端底部化，网格/看板自适应
-- 科技风样式：暗色渐变、荧光强调、毛玻璃、网格阴影
-- 基础交互：搜索输入框、按钮、占位数据与统计卡片
+- Responsive layout: Sidebar navigation becomes bottom on mobile, grid/board adaptive
+- Tech style: Dark gradients, fluorescent accents, frosted glass, grid shadows
+- Basic interactions: Search input box, buttons, placeholder data and metric cards
 
-## 后续可扩展
+## Future Extensions
 
-- 看板拖拽、任务详情弹窗、筛选/搜索联动
-- 时间轴（日/周/月粒度切换、关键路径标记）
-- 接入真实接口与状态管理（如 Zustand/Redux）
-- TypeScript 化与组件抽象
+- Board drag-and-drop, task detail popup, filter/search linkage
+- Timeline (day/week/month granularity switching, critical path marking)
+- Connect to real APIs and state management (like Zustand/Redux)
+- TypeScript conversion and component abstraction
 
-## 常见问题
+## Common Issues
 
-- 启动成功但页面空白：确认访问 `http://localhost:5173`，或查看终端是否报错
-- 端口被占用：`npm run dev -- --port 5174`
+- Startup successful but blank page: Confirm accessing `http://localhost:5173`, or check terminal for errors
+- Port occupied: `npm run dev -- --port 5174`

@@ -1,0 +1,1 @@
+Please create a simple frontend prototype based on the PRD, using React framework, tech style, needs to be responsive, supporting PC and mobile.

@@ -1,0 +1,9 @@
+Please read the entire project code and create a feature list, technical architecture, and deployment instructions, output a feature-list.md
+
+Please help me analyze competitor features, list feature lists, analyze the underlying design logic, and output a detailed analysis report.md
+
+api: Follow-up question
+
+Please output a design document.md based on API input and output
+
+
